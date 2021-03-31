@@ -1,0 +1,104 @@
+@import "../../styles/includes/_includes";
+
+// Global styles
+:global(.hamburger) {
+  padding: 0;
+
+  &:hover,
+  &:focus {
+    opacity: 1;
+
+    :global(.hamburger) {
+      &-inner {
+        background: $accent_color_bright;
+
+        &:before,
+        &:after {
+          background: $accent_color_bright;
+        }
+      }
+    }
+  }
+
+  &-box {
+    width: 35px;
+    height: 32px;
+
+    @include mobile {
+      width: 20px;
+      height: 25px;
+    }
+  }
+
+  &-inner {
+    width: 35px;
+    background: $accent_color;
+
+    @include mobile {
+      width: 20px;
+      height: 2px;
+    }
+
+    &:before,
+    &:after {
+      width: 35px;
+      background: $accent_color;
+
+      @include mobile {
+        width: 20px;
+        height: 2px;
+      }
+    }
+  }
+
+  &--collapse {
+    :global(.hamburger) {
+      &-inner {
+        &:before {
+          top: -11.5px;
+
+          @include mobile {
+            top: -7.5px;
+          }
+        }
+
+        &:after {
+          top: -23px;
+
+          @include mobile {
+            top: -14px;
+          }
+        }
+      }
+    }
+  }
+
+  &:global(.is-active) {
+    &:hover,
+    &:focus {
+      opacity: 1;
+
+      :global(.hamburger) {
+        &-inner {
+          background: $accent_color_bright;
+
+          &:before,
+          &:after {
+            background: $accent_color_bright;
+          }
+        }
+      }
+    }
+
+    :global(.hamburger) {
+      &-inner {
+        background: $accent_color;
+
+        &:before,
+        &:after {
+          background: $accent_color;
+        }
+      }
+    }
+  }
+}

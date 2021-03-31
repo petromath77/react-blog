@@ -1,0 +1,72 @@
+// Retina
+@mixin retina {
+  @media screen and (-webkit-min-device-pixel-ratio: 1.5),
+    screen and (min-resolution: 144dpi) {
+    @content;
+  }
+}
+
+// Breakpoints
+@mixin mobile {
+  @media screen and (max-width: 479px) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media screen and (max-width: 991px) {
+    @content;
+  }
+}
+
+@mixin laptop {
+  @media screen and (max-width: 1569px) {
+    @content;
+  }
+}
+
+// Actions
+@mixin center($axis: xy) {
+  position: absolute;
+
+  @if $axis == xy {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  @if $axis == x {
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+
+  @if $axis == y {
+    top: 50%;
+    transform: translate(0, -50%);
+  }
+}
+
+@mixin img() {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+// Fonts
+@mixin font($style: 400) {
+  @if $style == 300 {
+    font-family: "Roboto Light", sans-serif;
+  }
+
+  @if $style == 400 {
+    font-family: "Roboto Regular", sans-serif;
+  }
+
+  @if $style == 500 {
+    font-family: "Roboto Medium", sans-serif;
+  }
+
+  @if $style == 700 {
+    font-family: "Roboto Bold", sans-serif;
+  }
+}

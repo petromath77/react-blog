@@ -1,0 +1,187 @@
+{
+  "navItemLinks": [
+    {
+      "name": "Band",
+      "href": "/bio"
+    },
+    {
+      "name": "Music",
+      "href": "/music"
+    },
+    {
+      "name": "Tour",
+      "href": "/tour"
+    },
+    {
+      "name": "Gallery",
+      "href": "/gallery"
+    },
+    {
+      "name": "Contact",
+      "href": "/contact"
+    },
+    {
+      "name": "Blog",
+      "href": "/blog"
+    }
+  ],
+  "homeHero": [
+    "We just released our new album",
+    "EQUILIBRIUM",
+    "Check it out",
+    "Watch us live",
+    "/music",
+    "/tour"
+  ],
+  "social": [
+    {
+      "icon": "facebook",
+      "url": "/images/social-sprite.svg",
+      "viewBox": "0 0 16 16",
+      "path": "https://facebook.com"
+    },
+    {
+      "icon": "twitter",
+      "url": "/images/social-sprite.svg",
+      "viewBox": "0 0 16 16",
+      "path": "https://twitter.com"
+    },
+    {
+      "icon": "youtube",
+      "url": "/images/social-sprite.svg",
+      "viewBox": "0 0 16 16",
+      "path": "https://youtube.com"
+    },
+    {
+      "icon": "vivo",
+      "url": "/images/social-sprite.svg",
+      "viewBox": "0 0 16 16",
+      "path": "https://vevo.com"
+    }
+  ],
+  "bandHero": [
+    "How it all started",
+    "Donec id elit non mi porta gravida at eget metus. Donec id elit non mi\n          porta gravida at eget metus. Maecenas faucibus mollis interdum. Cras\n          justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus,\n          tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum\n          massa justo sit amet risus.\n          <br />\n          <br />\n          Sed posuere consectetur est at lobortis. Aenean eu leo quam.\n          Pellentesque ornare sem lacinia quam venenatis vestibulum. Cras mattis\n          consectetur purus sit amet fermentum. Etiam porta sem malesuada magna\n          mollis euismod.Cras mattis consectetur purus sit amet fermentum. Donec\n          ullamcorper nulla non metus auctor fringilla. Donec id elit non mi\n          porta gravida at eget metus. Praesent commodo cursus magna, vel\n          scelerisque nisl consectetur et. Etiam porta sem malesuada magna\n          mollis euismod.\n          <br />\n          <br />\n          Maecenas faucibus mollis interdum. Maecenas sed diam eget risus varius\n          blandit sit amet non magna. Maecenas faucibus mollis interdum. Sed\n          posuere consectetur est at lobortis. Nulla vitae elit libero, a\n          pharetra augue. Donec id elit non mi porta gravida at eget metus.\n          <br />\n          <br />\n          Donec ullamcorper nulla non metus auctor fringilla. Aenean lacinia\n          bibendum nulla sed consectetur. Curabitur blandit tempus porttitor.\n          Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.\n          Donec sed odio dui. Lorem ipsum dolor sit amet, consectetur adipiscing\n          elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam.\n          Etiam porta sem malesuada magna mollis euismod. Cras mattis\n          consectetur purus sit amet fermentum. Cras justo odio, dapibus ac\n          facilisis in, egestas eget quam. Cum sociis natoque penatibus et\n          magnis dis parturient montes, nascetur ridiculus mus. Vestibulum id\n          ligula porta felis euismod semper.\n          <br />\n          <br />"
+  ],
+
+  "musicHero": [
+    "music by method",
+    "/images/album.jpg",
+    "FEATURED ALBUM",
+    "Equilibrium",
+    "Etiam vel dolor nec tortor fringilla lacinia. Donec aliquet, nibh in aliquet pharetra, ex risus condimentum tortor, id feugiat ligula odio vitae turpis. Vivamus sed semper ex. Interdum et malesuada fames ac ante ipsum primis in faucibus. Phasellus tempor scelerisque elit, nec aliquam purus scelerisque eget. Maecenas elementum ex et dui volutpat gravida. Fusce consectetur massa in molestie lacinia. Integer nec mauris bibendum, molestie tellus et, porttitor lorem. Sed porttitor felis augue, interdum aliquam massa varius et. Donec ut iaculis turpis. Nam iaculis varius leo, at dapibus nunc tempus vitae."
+  ],
+
+  "albums": [
+    {
+      "Equilibrium": [
+        {
+          "song": "Contact",
+          "duration": "6:21"
+        },
+        {
+          "song": "Within",
+          "duration": "3:48"
+        },
+        {
+          "song": "Giorgio by Moroder",
+          "duration": "3:48"
+        },
+        {
+          "song": "Give Life Back to Music",
+          "duration": "4:34"
+        }
+      ]
+    },
+    {
+      "Hello World": [
+        {
+          "song": "Fragments of Time",
+          "duration": "4:39"
+        },
+        {
+          "song": "The Game of Love",
+          "duration": "5:21"
+        }
+      ]
+    },
+    {
+      "Tangled Up": [
+        {
+          "song": "Doin' It Right",
+          "duration": "4:11"
+        },
+        {
+          "song": "Motherboard",
+          "duration": "5:41"
+        }
+      ]
+    }
+  ],
+  "tour": [
+    {
+      "we're coming to your city": [
+        {
+          "date": "Jul 24, 2015",
+          "place": "Borgata Hotel Casino & Spa - Music Box",
+          "city": "Atlantic City, NJ",
+          "ticket": "Buy Ticket"
+        },
+        {
+          "date": "Aug 30, 2015",
+          "place": "Theater of Living Arts",
+          "city": "Philadelphia, PA",
+          "ticket": "Buy Ticket"
+        },
+        {
+          "date": "Aug 31, 2015",
+          "place": "Hersheypark Stadium",
+          "city": "Hershey, PA",
+          "ticket": "Buy Ticket"
+        },
+        {
+          "date": "Sep 5, 2015",
+          "place": "L'Auberge Casino & Hotel Baton Rouge",
+          "city": "Baton Rouge, LA",
+          "ticket": "Buy Ticket"
+        },
+        {
+          "date": "Sep 6, 2015",
+          "place": "Riverbend Music Center",
+          "city": "Cincinnati, OH",
+          "ticket": "Buy Ticket"
+        },
+        {
+          "date": "Sep 7, 2015",
+          "place": "Loufest",
+          "city": "St Louis, MO",
+          "ticket": "Buy Ticket"
+        },
+        {
+          "date": "Sep 8, 2015",
+          "place": "Lincoln Hall",
+          "city": "Chicago, IL",
+          "ticket": "Buy Ticket"
+        },
+        {
+          "date": "Sep 10, 2015",
+          "place": "The Orange Peel",
+          "city": "Asheville, NC",
+          "ticket": "Buy Ticket"
+        },
+        {
+          "date": "Sep 11, 2015",
+          "place": "JEFFERSON THEATER",
+          "city": "Charlottesville, VA",
+          "ticket": "Buy Ticket"
+        },
+        {
+          "date": "Sep 12, 2015",
+          "place": "SINGLETARY CENTER",
+          "city": "Lexington, KY",
+          "ticket": "Buy Ticket"
+        }
+      ]
+    }
+  ]
+}

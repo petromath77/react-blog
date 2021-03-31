@@ -1,0 +1,12 @@
+.btn {
+  padding: 11px 26px;
+  border: 1px solid $but_color;
+  color: $but_color;
+  transition: 0.3s;
+
+  &:hover,
+  &:active {
+    border-color: $accent_color;
+    color: $accent_color;
+  }
+}

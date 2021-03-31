@@ -1,0 +1,9 @@
+@import "../../styles/includes/_includes";
+
+.logo {
+  max-width: 120px;
+}
+
+.img {
+  @include img();
+}

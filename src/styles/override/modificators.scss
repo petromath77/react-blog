@@ -1,0 +1,43 @@
+.visible {
+  display: block;
+}
+
+.hidden {
+  display: none;
+}
+
+.active {
+  display: block;
+}
+
+.laptop {
+  display: flex;
+
+  @include tablet {
+    display: none;
+  }
+
+  @include mobile {
+    display: none;
+  }
+}
+
+.tablet {
+  display: none;
+
+  @include tablet {
+    display: block;
+  }
+
+  @include mobile {
+    display: none;
+  }
+}
+
+.mobile {
+  display: none;
+
+  @include mobile {
+    display: block;
+  }
+}
