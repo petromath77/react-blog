@@ -41,3 +41,13 @@
     display: block;
   }
 }
+
+
+.menu-mobile {
+  transition: all .5s;
+  transform: translate(50%, -150%);
+
+  &.show {
+    transform: translate(50%, 0);
+  }
+}

@@ -46,7 +46,7 @@ const Nav = props => {
       ) : (
         <ul className={styles.list}>{links}</ul>
       )}
-      <ul className={open ? styles.mobile__list_open : styles.mobile__list }>{links}</ul>
+      <ul className={open ? `${styles.mobile__list} menu-mobile show` : `${styles.mobile__list} menu-mobile` }>{links}</ul>
     </nav>
   );
 };
