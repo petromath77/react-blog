@@ -15,13 +15,19 @@ const ContactForm = () => {
       </div>
       <form className={`${styles.form} form`}>
         <StylesProvider injectFirst>
-          {content.inputLabels.map(item => (
+          {content.inputLabels.map((item, index) => (
             <TextField
               id="filled-secondary"
               label={item}
-              variant="filled" />
+              variant="filled" key={index} />
           ))}
-          <Button className={`${styles.button} btn`} variant="contained">Hello World</Button>
+          <TextField
+            id="filled-secondary"
+            label="Message:"
+            multiline
+            rows= "4"
+            variant="filled" />
+          <Button className={`${styles.button} btn`} variant="contained">Send Message</Button>
         </StylesProvider>
       </form>
     </div>

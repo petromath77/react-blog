@@ -207,7 +207,6 @@
   "inputLabels": [
     "Name:",
     "Email Address:",
-    "Subject:",
-    "Message:"
+    "Subject:"
   ]
 }

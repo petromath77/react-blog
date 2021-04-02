@@ -21,4 +21,13 @@
       border-color: $but_color;
     }
   }
+
+  .MuiInputBase-multiline {
+    background-color: hsla(0, 0%, 40%, .64);
+    border-radius: 0;
+    
+    textarea {
+      background: transparent;
+    }
+  }
 }
