@@ -1,0 +1,24 @@
+.form {
+  .MuiInputLabel-filled {
+    color: $but_color;
+    transform: translate(12px, 12px) scale(1);
+  }
+
+  .MuiInputLabel-filled.MuiInputLabel-shrink {
+    transform: translate(12px, -5px) scale(0.75);
+  }
+
+  .MuiInputBase-input {
+    height: rem(42px);
+    padding: rem(15px) rem(12px) rem(8px);
+    background-color: hsla(0, 0%, 40%, .64);
+    box-sizing: border-box;
+    color: $accent_color_bright;
+  }
+
+  .MuiFilledInput-underline {
+    &::after {
+      border-color: $but_color;
+    }
+  }
+}

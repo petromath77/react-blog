@@ -203,5 +203,11 @@
         }
       ]
     }
+  ],
+  "inputLabels": [
+    "Name:",
+    "Email Address:",
+    "Subject:",
+    "Message:"
   ]
 }
