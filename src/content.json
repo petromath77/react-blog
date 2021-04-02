@@ -183,5 +183,25 @@
         }
       ]
     }
+  ],
+  "contactList": [
+    {
+      "Management": [
+        {
+          "name": "Jane Smith",
+          "phone": "555-123-5555",
+          "email": "norepl@webflow.com"
+        }
+      ]
+    },
+    {
+      "Booking": [
+        {
+          "name": "Jane Smith",
+          "phone": "555-123-5555",
+          "email": "norepl@webflow.com"
+        }
+      ]
+    }
   ]
 }

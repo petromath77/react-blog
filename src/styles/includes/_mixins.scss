@@ -53,6 +53,10 @@
 }
 
 // Fonts
+@function rem($px) {
+  @return $px / 16px + 0rem;
+}
+
 @mixin font($style: 400) {
   @if $style == 300 {
     font-family: "Roboto Light", sans-serif;

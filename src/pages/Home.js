@@ -1,5 +1,5 @@
 import React from 'react';
-import HomeHero from '../components/HomeHero/HomeHero';
+import HomeHero from '../components/HomeHero';
 
 const Home = props => {
   const { classadd } = props;

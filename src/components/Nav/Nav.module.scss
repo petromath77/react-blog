@@ -12,7 +12,7 @@
 }
 
 .item {
-  margin-right: 20px;
+  margin-right: rem(20px);
 
   &:last-child {
     margin-right: 0;
@@ -21,7 +21,7 @@
 
 .link {
   color: $main_color;
-  font-size: 16px;
+  font-size: rem(16px);
   transition: all 0.3s;
 
   &:hover,
@@ -39,9 +39,9 @@
 
   &__list {
     width: 100%;
-    padding: 10px 0 100px;
+    padding: rem(10px) 0 rem(100px);
     position: absolute;
-    top: 100px;
+    top: rem(100px);
     right: 50%;
     z-index: 1;
     background: $header_bg_color;
@@ -49,26 +49,26 @@
 
     &::before {
       position: absolute;
-      top: -100px;
+      top: rem(-104px);
       content: '';
       display: block;
-      height: 105px;
+      height: rem(105px);
       width: 100%;
       background: $header_bg_color;
     }
 
     @include mobile {
-      top: 100px;
+      top: rem(100px);
     }
   }
 
   &__item {
     &:first-child {
-      padding-top: 4px;
+      padding-top: rem(4px);
     }
 
     &:last-child {
-      padding-bottom: 5px;
+      padding-bottom: rem(5px);
     }
   }
 
@@ -76,8 +76,8 @@
     @include font(500);
     position: relative;
     display: block;
-    padding: 20px 29px;
-    font-size: 20px;
+    padding: rem(20px) rem(29px);
+    font-size: rem(20px);
     color: $main_color;
     transition: all 0.3s;
     text-transform: uppercase;

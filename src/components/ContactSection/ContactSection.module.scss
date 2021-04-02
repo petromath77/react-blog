@@ -1,0 +1,48 @@
+@import "../../styles/includes/_includes";
+
+.contact {
+
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: rem(58px) 0 rem(38px);
+  border-top: 1px solid rgba($accent_color_bright, 0.3);
+  border-bottom: 1px solid rgba($accent_color_bright, 0.3);
+}
+
+.item {
+  width: 50%;
+  margin-bottom: rem(20px);
+  text-align: center;
+
+  @include tablet {
+    width: 100%;
+  }
+}
+
+.title {
+  margin-bottom: rem(20px);
+}
+
+.subitem {
+  display: flex;
+  flex-direction: column;
+
+  &-text {
+    font-size: rem(14px);
+  }
+
+  &-link {
+    margin-top: rem(10px);
+    color: $accent_color_bright;
+    transition: all .3s;
+
+    &:hover,
+    &:active {
+      color: lighten($accent_color_bright, 20%);
+    }
+  }
+}

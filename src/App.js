@@ -12,8 +12,9 @@ import './styles/global.scss';
 import './styles/override/override.scss';
 
 // Pages and Componemnts
-import Header from './components/Header/Header';
+import Header from './components/Header';
 import Home from './pages/Home';
+import Contact from './pages/Contact';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <Header />
       <Switch>
         <Route exact path="/" component={Home} />
+        <Route path="/contact" component={Contact} />
       </Switch>
     </>
   );

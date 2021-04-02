@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import styles from './Nav.module.scss';
-import Hamburger from '../../elements/Hamburger/Hamburger';
+import Hamburger from '../../elements/Hamburger';
 import content from '../../content';
 
 const NavItem = props => {

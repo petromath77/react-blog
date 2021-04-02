@@ -4,10 +4,8 @@ import content from '../../content';
 import styles from './HomeHero.module.scss';
 
 const HomeHero = props => {
-  const { classadd } = props;
-
   return (
-    <section className={`${styles.hero} section ${classadd}`}>
+    <section className={`${styles.hero} section bg bg__home`}>
       <div className="container">
         <div className={`${styles.wrapper}`}>
           <p className={`${styles.text}`}>{content.homeHero[0]}</p>
