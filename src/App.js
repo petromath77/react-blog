@@ -15,6 +15,7 @@ import './styles/override/override.scss';
 import Header from './components/Header';
 import Home from './pages/Home';
 import Contact from './pages/Contact';
+import Login from './pages/Login';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
       <Switch>
         <Route exact path="/" component={Home} />
         <Route path="/contact" component={Contact} />
+        <Route path="/login" component={Login} />
       </Switch>
     </>
   );

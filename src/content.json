@@ -9,10 +9,6 @@
       "href": "/music"
     },
     {
-      "name": "Tour",
-      "href": "/tour"
-    },
-    {
       "name": "Gallery",
       "href": "/gallery"
     },
@@ -23,6 +19,10 @@
     {
       "name": "Blog",
       "href": "/blog"
+    },
+    {
+      "name": "Login",
+      "href": "/login"
     }
   ],
   "homeHero": [
@@ -36,7 +36,7 @@
   "social": [
     {
       "icon": "facebook",
-      "url": "/images/social-sprite.svg",
+      "url": "../src/images/social-sprite.svg",
       "viewBox": "0 0 16 16",
       "path": "https://facebook.com"
     },
@@ -208,5 +208,9 @@
     "Name:",
     "Email Address:",
     "Subject:"
+  ],
+  "loginLabels": [
+    "Username*",
+    "Password*"
   ]
 }

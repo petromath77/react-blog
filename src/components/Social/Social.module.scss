@@ -1,0 +1,30 @@
+@import "../../styles/includes/includes";
+
+.svg {
+  display: block;
+  width: 23px;
+  height: 23px;
+  fill: $white;
+  stroke: none;
+  stroke-width: 2;
+  stroke-linecap: butt;
+  stroke-linejoin: miter;
+  stroke-miterlimit: 10;
+  stroke-dasharray: none;
+  stroke-opacity: 1;
+  transition: 0.3s;
+
+  &:hover {
+    fill: $main_color;
+  }
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.item {
+  margin-left: 10px;
+}

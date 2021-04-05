@@ -1,4 +1,4 @@
-.form {
+.form, .login {
   .MuiInputLabel-filled {
     color: $but_color;
     transform: translate(12px, 12px) scale(1);
@@ -29,5 +29,25 @@
     textarea {
       background: transparent;
     }
+  }
+
+  .MuiPaper-root {
+    background-color: transparent;
+    box-shadow: none;
+  }
+
+  .MuiAvatar-root {
+    background-color: $but_color;
+    color: $song_title;
+  }
+
+  .MuiFormControl-root {
+    margin-bottom: rem(20px);
+  }
+}
+
+.login {
+  .MuiButton-root {
+    margin: 0 auto;
   }
 }

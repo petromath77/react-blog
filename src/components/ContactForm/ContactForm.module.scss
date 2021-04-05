@@ -2,10 +2,14 @@
 
 
 .form-wrapper {
-  padding: rem(60px) 0;
+  padding: rem(100px) 0;
 }
 
 .title {
+  margin-bottom: rem(50px);
+}
+
+.subtitle {
   margin-bottom: rem(50px);
 }
 
@@ -14,8 +18,4 @@
   display: flex;
   flex-direction: column;
   margin: 0 auto;
-
-  & > div {
-    margin-bottom: rem(20px);
-  } 
 }

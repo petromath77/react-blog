@@ -1,3 +1,4 @@
 .section {
-  padding: 150px 0 50px;
+  padding: rem(150px) 0 rem(200px);
+  min-height: 100vh;
 }
