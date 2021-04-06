@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import content from '../../content';
 import styles from './ContactSection.module.scss';
+import ContactForm from '../ContactForm';
 
 const ContactItem = props => {
   const { item, title } = props;
@@ -41,6 +42,7 @@ const ContactSection = () => {
         <div className={styles.wrapper}>
           <h2 className={`title`}>Get in touch</h2>
           <ContactList />
+          <ContactForm />
         </div>
       </div>
     </section>

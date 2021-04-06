@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import styles from './Nav.module.scss';
 import Hamburger from '../../elements/Hamburger';
 import content from '../../content';
@@ -10,13 +10,13 @@ const NavItem = props => {
 
   return (
     <li className={mobile ? styles.mobile__item : styles.item}>
-      <Link
+      <NavLink exact
         key={name}
         to={href}
-        className={mobile ? styles.mobile__link : styles.link}
+        className={mobile ? styles.mobile__link : styles.link} activeClassName={styles.active}
       >
         {name}
-      </Link>
+      </NavLink>
     </li>
   );
 };

@@ -1,0 +1,22 @@
+@import "../../styles/includes/_includes";
+
+.icon {
+  margin: 0 auto rem(30px);
+}
+.subtitle {
+  @include font(500);
+  margin-bottom: rem(30px);
+}
+
+.wrapper {
+  max-width: rem(360px);
+  margin: 0 auto;
+  padding: rem(30px);
+  background: $login_bg_color;
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}

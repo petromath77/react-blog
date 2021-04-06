@@ -1,12 +1,12 @@
 import React from 'react';
-import ContactSection from '../components/ContactSection';
+import Login from '../components/Login';
 import Footer from '../components/Footer';
 
 const Contact = props => {
 
   return (
     <>
-      <ContactSection />
+      <Login />
       <Footer />
     </>
   );

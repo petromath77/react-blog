@@ -19,4 +19,8 @@
       180deg, rgba(0, 0, 0, .6) 2%, rgba(0, 0, 0, .6) 98%),
       url("../../images/pages_bg.jpg");
   }
+
+  &__black {
+    background-color: $black;
+  }
 }

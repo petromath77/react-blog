@@ -1,6 +1,8 @@
 .subtitle {
   @include font(300);
   display: block;
+  margin-bottom: rem(20px);
   font-size: rem(27px);
   line-height: rem(28px);
+  text-align: center;
 }
