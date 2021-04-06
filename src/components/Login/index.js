@@ -13,14 +13,13 @@ const Login = () => {
       <div className="container">
         <div className={styles.wrapper}>
           <Avatar className={styles.icon}>
-            <LockRounded></LockRounded>
+            <LockRounded/>
           </Avatar>
           <h3 className={`${styles.subtitle} subtitle`}>Sign In</h3>
           <Paper className={ styles.form }>
             <StylesProvider injectFirst>
               {content.loginLabels.map((item, index) => (
                 <TextField
-                  id="filled-secondary"
                   label={item}
                   variant="filled" key={index} />
               ))}

@@ -14,12 +14,10 @@ const ContactForm = () => {
           <StylesProvider injectFirst>
             {content.inputLabels.map((item, index) => (
               <TextField
-                id="filled-secondary"
                 label={item}
                 variant="filled" key={index} />
             ))}
             <TextField
-              id="filled-secondary"
               label="Message:"
               multiline
               rows= "4"

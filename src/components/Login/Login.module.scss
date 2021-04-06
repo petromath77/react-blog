@@ -1,13 +1,11 @@
 @import "../../styles/includes/_includes";
 
-.login {
-}
-
 .icon {
   margin: 0 auto rem(30px);
 }
 .subtitle {
   @include font(500);
+  margin-bottom: rem(30px);
 }
 
 .wrapper {

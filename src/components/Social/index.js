@@ -1,5 +1,4 @@
 import React from 'react';
-import uniqueId from 'uniqid';
 import Icon from '../../elements/Icon/Icon';
 import styles from './Social.module.scss';
 import content from '../../content';
@@ -7,8 +6,8 @@ import content from '../../content';
 const Social = () => {
   return (
     <ul className={`${styles.wrapper}`}>
-      {content.social.map(item => (
-        <SocialItem item={item} key={uniqueId()} />
+      {content.social.map((item, index) => (
+        <SocialItem item={item} key={index} />
       ))}
     </ul>
   );
