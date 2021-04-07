@@ -8,15 +8,13 @@ const Bio = () => {
   });
 
   return (
-    <>
-      <div className={`${styles.wrapper}`}>
-        <h2 className="title">{content.bandHero[0]}</h2>
-        <p
-          className="desc"
-          dangerouslySetInnerHTML={createHTML(content.bandHero[1])}
-        />
-      </div>
-    </>
+    <div className={`${styles.wrapper}`}>
+      <h2 className="title">{content.bandHero[0]}</h2>
+      <p
+        className="desc"
+        dangerouslySetInnerHTML={createHTML(content.bandHero[1])}
+      />
+    </div>
   );
 };
 

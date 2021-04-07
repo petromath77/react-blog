@@ -3,9 +3,7 @@ import MusicHero from '../components/MusicHero';
 
 const Band = () => {
   return (
-    <>
-      <MusicHero />
-    </>
+    <MusicHero />
   );
 };
 

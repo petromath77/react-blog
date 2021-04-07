@@ -36,26 +36,24 @@ const MusicList = () => {
 
 const Music = () => {
   return (
-    <>
-      <div className={`${styles.wrapper}`}>
-        <h2 className="title">{content.musicHero[0]}</h2>
-        <div className={`${styles.album_wrapper}`}>
-          <img
-            className={`${styles.img}`}
-            src={content.musicHero[1]}
-            alt="album"
-          />
-          <div className={`${styles.info}`}>
-            <span className="subhead">{content.musicHero[2]}</span>
-            <h3 className={`${styles.header}`}>{content.musicHero[3]}</h3>
-            <p className={`${styles.desc}`}>{content.musicHero[4]}</p>
-          </div>
-        </div>
-        <div>
-          <MusicList />
+    <div className={`${styles.wrapper}`}>
+      <h2 className="title">{content.musicHero[0]}</h2>
+      <div className={`${styles.album_wrapper}`}>
+        <img
+          className={`${styles.img}`}
+          src={content.musicHero[1]}
+          alt="album"
+        />
+        <div className={`${styles.info}`}>
+          <span className="subhead">{content.musicHero[2]}</span>
+          <h3 className={`${styles.header}`}>{content.musicHero[3]}</h3>
+          <p className={`${styles.desc}`}>{content.musicHero[4]}</p>
         </div>
       </div>
-    </>
+      <div>
+        <MusicList />
+      </div>
+    </div>
   );
 };
 

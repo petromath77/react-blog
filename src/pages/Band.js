@@ -3,9 +3,7 @@ import BandHero from '../components/BandHero';
 
 const Band = () => {
   return (
-    <>
-      <BandHero />
-    </>
+    <BandHero />
   );
 };
 
