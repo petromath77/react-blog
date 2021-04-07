@@ -9,16 +9,12 @@
       "href": "/music"
     },
     {
-      "name": "Gallery",
-      "href": "/gallery"
+      "name": "Blog",
+      "href": "/blog"
     },
     {
       "name": "Contact",
       "href": "/contact"
-    },
-    {
-      "name": "Blog",
-      "href": "/blog"
     },
     {
       "name": "Login",

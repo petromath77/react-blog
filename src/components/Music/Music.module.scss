@@ -1,0 +1,72 @@
+@import "../../styles/includes/includes";
+
+.album_wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 rem(10px);
+  margin-bottom: rem(100px);
+}
+
+.img {
+  max-width: rem(218px);
+}
+
+.info {
+  max-width: rem(618px);
+  text-align: left;
+}
+
+.header {
+  margin: rem(10px) 0;
+  @include font(500);
+  font-size: rem(24px);
+  line-height: rem(30px);
+}
+
+.desc {
+  margin-bottom: rem(10px);
+  line-height: rem(24px);
+}
+
+.albums {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: rem(120px);
+}
+
+.album_head {
+  margin-bottom: rem(40px);
+}
+
+.album_title {
+  @include font(400);
+  font-size: rem(24px);
+  line-height: rem(27px);
+  text-transform: uppercase;
+}
+
+.album {
+  width: 30%;
+}
+
+.song {
+  padding: rem(20px) 0;
+  border-top: 1px solid $song_border;
+}
+
+.song_title {
+  display: block;
+  @include font(500);
+  margin-bottom: rem(5px);
+  font-size: rem(18px);
+  line-height: rem(24px);
+  color: $song_title;
+  letter-spacing: 1px;
+}
+
+.duration {
+  margin-left: rem(20px);
+  font-size: rem(12px);
+  line-height: rem(18px);
+  color: $main_color;
+}
