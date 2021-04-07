@@ -16,6 +16,8 @@ import Header from './components/Header';
 import Home from './pages/Home';
 import Contact from './pages/Contact';
 import Login from './pages/Login';
+import Band from './pages/Band';
+import Music from './pages/Music';
 
 function App() {
   return (
@@ -25,6 +27,8 @@ function App() {
         <Route exact path="/" component={Home} />
         <Route path="/contact" component={Contact} />
         <Route path="/login" component={Login} />
+        <Route path="/bio" component={Band} />
+        <Route path="/music" component={Music} />
       </Switch>
     </>
   );
