@@ -42,12 +42,20 @@
   }
 
   .MuiFormControl-root {
-    margin-bottom: rem(30px);
+    margin-top: 0;
+    margin-bottom: rem(35px);
   }
 }
 
 .login {
   .MuiButton-root {
     margin: 0 auto;
+  }
+
+  .MuiFormHelperText-root.Mui-error {
+    position: absolute;
+    left: 0;
+    bottom: rem(-25px);
+    margin: 0;
   }
 }

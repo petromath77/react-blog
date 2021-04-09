@@ -18,6 +18,7 @@ import Contact from './pages/Contact';
 import Login from './pages/Login';
 import Band from './pages/Band';
 import Music from './pages/Music';
+import Profile from './pages/Profile';
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
         <Route path="/login" component={Login} />
         <Route path="/bio" component={Band} />
         <Route path="/music" component={Music} />
+        <Route path="/profile" component={Profile} />
       </Switch>
     </>
   );

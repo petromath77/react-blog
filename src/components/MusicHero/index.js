@@ -1,5 +1,4 @@
 import React from 'react';
-import styles from './MusicHero.module.scss';
 import Footer from '../Footer';
 import Music from '../Music';
 

@@ -16,4 +16,9 @@
     width: fit-content;
     border-radius: 0;
   }
+
+  &.Mui-disabled {
+    color: $main_color;
+    border-color: $main_color;
+  }
 }
