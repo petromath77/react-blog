@@ -2,21 +2,40 @@ import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import styles from './Nav.module.scss';
 import Hamburger from '../../elements/Hamburger';
-import content from '../../content';
+import contentUnauth from '../../content';
+import contentAuth from '../../contentAuth';
+
+//Redux
+import { useDispatch } from 'react-redux';
+import { setIsLoggedIn } from '../../actions/user';
 
 const NavItem = props => {
   const { link, mobile } = props;
-  const { name, href } = link;
+  const { name, href, logout } = link;
+  const dispatch = useDispatch();
+
+  const handleClick = () => {
+    localStorage.setItem('isLoggedIn', '');
+    dispatch(setIsLoggedIn(false));
+  }
 
   return (
     <li className={mobile ? styles.mobile__item : styles.item}>
-      <NavLink exact
+      {logout ? (
+        <NavLink exact
+        key={name}
+        to={href}
+        onClick={ handleClick }
+        className={mobile ? `${styles.mobile__link} ${styles.logout}` : `${styles.link} ${styles.logout}`} activeClassName={styles.active}
+    >{ name }</NavLink>
+      )
+      : 
+      (<NavLink exact
         key={name}
         to={href}
         className={mobile ? styles.mobile__link : styles.link} activeClassName={styles.active}
-      >
-        {name}
-      </NavLink>
+        >{ name }</NavLink>)
+      }
     </li>
   );
 };
@@ -24,6 +43,7 @@ const NavItem = props => {
 const Nav = props => {
   const { mobile } = props;
   const [open, setOpen] = useState(false);
+  const content = localStorage.getItem('isLoggedIn') ? contentAuth : contentUnauth;
   //const mobileMenu = document.getElementById('mobile-menu');
 
   const links = content.navItemLinks.map((link, index)  => {

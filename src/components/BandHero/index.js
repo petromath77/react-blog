@@ -1,5 +1,4 @@
 import React from 'react';
-import styles from './BandHero.module.scss';
 import Footer from '../Footer';
 import Bio from '../Bio';
 
