@@ -38,16 +38,55 @@
 
   .MuiAvatar-root {
     background-color: $but_color;
-    color: $song_title;
+    color: $white;
   }
 
   .MuiFormControl-root {
-    margin-bottom: rem(30px);
+    position: relative;
+    width: 100%;
+    margin-bottom: rem(35px);
+  }
+
+  .MuiButton-contained {
+    &.Mui-disabled {
+      color: $main_color;
+      border-color: $main_color;
+    }
+  }
+
+  .MuiFormHelperText-root {
+    &.Mui-error {
+      position: absolute;
+      left: 0;
+      margin: 0;
+      bottom: rem(-25px);
+    }
+  }
+
+  .error {
+    transition: all .5s;
+
+    &.show {
+      opacity: 1;
+      visibility: visible;
+    }
+
+    &.hide {
+      opacity: 0;
+      visibility: hidden;
+    }
   }
 }
 
 .login {
   .MuiButton-root {
     margin: 0 auto;
+  }
+}
+
+.signup {
+  .MuiAvatar-root {
+    background-color: $signup_person_color;
+    color: $white;
   }
 }

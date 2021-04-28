@@ -1,14 +1,13 @@
 import React from 'react';
-import Music from '../Music';
 
-const MusicHero = () => {
+const ProfileHero = () => {
   return (
     <section className={`section bg bg__pages`}>
       <div className="container">
-        <Music />
+        <h1>Profile Page</h1>
       </div>
     </section>
   );
 };
 
-export default MusicHero;
+export default ProfileHero;

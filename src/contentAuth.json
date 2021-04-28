@@ -1,0 +1,29 @@
+{
+  "navItemLinks": [
+    {
+      "name": "Band",
+      "href": "/bio"
+    },
+    {
+      "name": "Music",
+      "href": "/music"
+    },
+    {
+      "name": "Blog",
+      "href": "/blog"
+    },
+    {
+      "name": "Contact",
+      "href": "/contact"
+    },
+    {
+      "name": "Logout",
+      "href": "/logout",
+      "logout": true
+    },
+    {
+      "name": "Profile",
+      "href": "/profile"
+    }
+  ]
+}

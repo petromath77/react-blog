@@ -1,14 +1,15 @@
 import React from 'react';
-import MusicHero from '../components/MusicHero';
+import SignupHero from '../components/SignupHero';
 import Footer from '../components/Footer';
 
-const Band = () => {
+const Contact = props => {
+
   return (
     <>
-      <MusicHero />
+      <SignupHero />
       <Footer />
     </>
   );
 };
 
-export default Band;
+export default Contact;
